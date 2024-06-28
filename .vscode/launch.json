@@ -2,12 +2,12 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python: PyPy 3.10",
+            "name": "Python: system",
             "type": "debugpy",
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
-            "python": "/opt/homebrew/bin/pypy3.10",
+            "python": "/usr/bin/python3",
             "env": {
                 "LOCAL": "1"
             }
